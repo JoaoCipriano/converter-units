@@ -1,6 +1,16 @@
 ## :information_source: About this project
-
-It's a simple converter for some units for IS default.
+It's a simple converter for IS default, is possible to use name or symbol to convert, for example /units/si?units=degree or /units/si?units=º  
+### Units available:
+- minute (min)
+- hour (h)
+- day (d)
+- degree (º)
+- arcminute (')
+- arcsecond (")
+- hectare (ha)
+- litre (L)
+- tonne (t)
+ 
 
 ## :information_source: How To Use
 
@@ -30,4 +40,4 @@ $ docker run -p 8080:8080 --name challenge spring-app
 ```
 
 ### Endpoint available
-Request example GET http://localhost:8080/units/si?units=minute
+GET http://localhost:8080/units/si?units=unit-name
