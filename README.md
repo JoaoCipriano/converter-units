@@ -27,8 +27,8 @@ $ git clone https://github.com/JoaoCipriano/converter-units.git
 # Go into the repository
 $ cd converter-units
 
-# Install dependencies
-$ mvnw install
+# Generate jar of the application; (in CMD Windows terminal only is necessary "mvnw install" )
+$ ./mvnw install 
 
 # Execute Dockerfile
 $ docker build -t spring-app .
